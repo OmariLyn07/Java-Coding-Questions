@@ -1,10 +1,7 @@
 //Write a function that tests whether a string is a palindrome
-import java.util.*;
 public class Question1 {
 
     public static boolean isPalindrome(String s){
-        HashMap<String, Integer> S = new HashMap<>();
-        HashMap<String, Integer> T = new HashMap<>();
 
         if(s.length() <= 1){
             return false;
